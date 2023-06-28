@@ -1,0 +1,72 @@
+* {
+font-family: 'Catamaran', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+:root {
+    --bg-green-1: #05e22a; 
+    --bg-green-2: #58fd74;
+    --bg-white-3: #ffffff;
+    --bg-blue-4: #57b9fa;
+    --margin-top: 100px;
+}
+
+.my-mt{
+    color: var(--bg-green-2)
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+
+}.my-tittle {
+    color: var(--bg-blue-4);
+    font-weight: 700;
+}
+
+.sobre {
+    min-height: 60vh;
+}
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-green-2);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: #ffffff;
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: #57b9fa;
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color:#38b4fc;
+    text-align: center;
+}
+
+textarea {
+    resize:none;
+    height: 130px;
+}
+
+@media (max-width: 959px) {
+    #sobre {
+        text-align: center;
+    }
+}
